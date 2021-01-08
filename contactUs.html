@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+
+  <title>Zuhair Murad</title>
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <a class="navbar-brand" href="index.html"><img src="img/brand.jpg"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="collection.html">Collection</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="meetZuhair.html">Meet Zuhair</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactUs.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-sm-6">
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="formName">Name</label>
+            <input type="email" class="form-control" id="formName" placeholder="Name">
+          </div>
+
+          <div class="form-group">
+            <label for="formEmailAddress">Email address</label>
+            <input type="email" class="form-control" id="formEmailAddress" placeholder="name@example.com">
+          </div>
+
+          <div class="form-group">
+            <label for="formSubject">Subject</label>
+            <input type="email" class="form-control" id="formSubject" placeholder="Subject">
+          </div>
+
+          <div class="form-group">
+            <label for="formTextArea">Email</label>
+            <textarea class="form-control" id="formTextArea" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-secondary">Submit</button>
+        </form>
+      </div>
+      <div class="col-sm-6">
+        <img src="img/pinkdressstore.jpg">
+      </div>
+
+    </div>
+  </div>
+
+
+  <footer class="footer">
+    <div id="socialLinks" class="container pt-2 pb-2">
+
+      <a href="https://www.pinterest.com/"> <i class="fa fa-pinterest-p mr-1" aria-hidden="true"></i> </a>
+      <a href="https://www.facebook.com/"> <i class="fa fa-facebook mr-1" aria-hidden="true"></i></a>
+      <a href="https://twitter.com/home"> <i class="fa fa-twitter mr-1" aria-hidden="true"></i></a>
+      <a href="https://www.instagram.com/"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+    </div>
+  </footer>
+
+
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="js/scripts.js"></script>
+
+</body>
+
+</html>
