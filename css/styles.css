@@ -33,6 +33,10 @@ color: white !important;
     color: #dae0e5;
 }
 
+.navbar-toggler-icon {
+  background-color: white;
+}
+
 .bg-light{
   background-color: transparent !important;
 }
@@ -72,23 +76,24 @@ a:link{
 }
 
 #contactForm{
-  object-fit: cover;
+  object-fit: fill;
   color:#000000;
 }
 
-img {
+/*#img {
 margin-left: auto;
 margin-right: auto;
-  margin-top: 40px;
+ 
   width:95%;
 }
+ */
 
 #carouselExampleInterva{
   background-color: #f0e4db;
 }
 
-.carousel-inner  img {
-  object-fit: cover;
+.carousel-inner img {
+  object-fit: fill;
   widows: 40px;
   height: 350px;
    
@@ -106,10 +111,10 @@ a{
 }
 
 .navbar-brand img{
-border: 1px solid #ddd;
+  border: 1px solid #ddd;
   border-radius: 5px;
-  padding: 5px;
-  width: 100px;
+  padding: 2px;
+  width: 40px;
 }
 
 p{
